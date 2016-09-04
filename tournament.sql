@@ -12,10 +12,7 @@ CREATE DATABASE tournament;
 
 CREATE TABLE players(
   player_id SERIAL PRIMARY KEY,
-  player_name TEXT, 
-  total_wins INTEGER NOT NULL DEFAULT 0,
-  total_losses INTEGER NOT NULL DEFAULT 0,
-  total_matches INTEGER NOT NULL DEFAULT 0
+  player_name TEXT 
 );
 
 CREATE TABLE matches(
